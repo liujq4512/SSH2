@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//WebContent/test/uploadFile.jsp=UTF-8
+encoding//src/com/interceptor/MyInterceptor.java=GBK
+encoding//src/com/interceptor/MyPreResultListener.java=GBK
+encoding//src/com/spring/test/AuthorityAspectJ.java=UTF-8
+encoding//src/com/thread/TestSynchronized.java=GBK
+encoding//src/messageResource.properties=UTF-8
+encoding/<project>=GBK

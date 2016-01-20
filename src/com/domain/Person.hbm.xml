@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="com.domain">
+    <class name="Person" table="person">
+        <id name="id" type="long" >
+            <generator class="native"/>
+        </id>
+        <property name="name" length="10" not-null="true"/>
+        <property name="age" length="2" not-null="true"/>
+        <property name="sex" length="2"/>
+        <property name="cardId" length="20" />
+        <!-- 使用join 元素强制使用连接表 -->
+		<join table="person_home">
+			<!-- 映射连接表中参照本表主键的外键列 -->
+			<key column="person_id" />
+			<!-- 映射连接表中参照关联实体的外键列 -->
+			<many-to-one name="home" cascade="all" class="Home" column="home_id" />
+		</join>
+    </class>
+</hibernate-mapping>

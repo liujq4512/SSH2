@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.jboss.ide.eclipse.as.classpath.core.j2ee-1.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0"/>
+	<classpathentry kind="lib" path="E:/lib/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="E:/lib/httpcore-4.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/lib/commons-codec-1.6.jar"/>
+	<classpathentry kind="lib" path="E:/lib/com.springsource.org.apache.commons.httpclient-3.1.0.jar"/>
+	<classpathentry kind="lib" path="E:/development/ivy/repository/ivy-cache/org.apache/zookeeper/jars/zookeeper-3.4.6.jar"/>
+	<classpathentry kind="lib" path="E:/development/ivy/repository/ivy-cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="E:/development/ivy/repository/ivy-cache/org.quartz/quartz/jars/quartz-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/development/ivy/repository/ivy-cache/org.quartz/quartz-jobs/jars/quartz-jobs-2.2.1.jar"/>
+	<classpathentry kind="lib" path="E:/development/ivy/repository/ivy-cache/org.quartz/quartz-all/jars/quartz-all-1.6.5.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
